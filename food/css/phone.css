@@ -1,0 +1,57 @@
+/*nav ber*/
+#navber{
+    flex-direction: column;
+}
+#navber ul li a{
+    font-size:.9rem;
+    padding:0px 3px;
+}
+
+/*HOME*/
+#home{
+    height: 500px;
+    padding: 0px;
+}
+#home::before{
+    height: 500px;
+}
+/*sarvice sector */
+#sarvices{
+
+    flex-direction: column;
+    width: 100%;
+}
+#sarvices .box{
+    margin: 2px 50px;
+    padding: 1px 1px;
+
+}
+
+
+
+/*client section*/
+
+.client{
+    flex-wrap: wrap;
+}
+.client img{
+    width: 95px;
+    padding: 2px 8px;
+}
+.client-section{
+    position: relative;
+    height: auto;
+}
+
+/*contact section*/
+
+
+
+/*footer*/
+
+
+/* utility class*/
+.h-p{
+    font-size: 1.1rem;
+    padding-top:50px;
+}
