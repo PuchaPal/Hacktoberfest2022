@@ -128,5 +128,5 @@ For more information on syncing forks [read this article from Github](https://he
 
 ## Our Top Contributors 
 <p align="center"><a href="https://github.com/PuchaPal/Hacktoberfest2022/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=PuchaPal/Hacktoberfest2022" />
+  <img src="https://contributors-img.web.app/image?repo=PuchaPal/Hacktoberfest2022"/>
 </a></p>
