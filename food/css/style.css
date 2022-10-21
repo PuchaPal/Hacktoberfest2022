@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* css reset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*nav ber*/
+
+#navber{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+}    
+#navber::before{
+
+    content: "";
+    background-color:rgba(14, 13, 13, 0.945);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.9; 
+    top:0px;
+    left:0px;
+}
+/*nav ber:image and logo*/
+.logo{
+    margin: 5px 20px;
+} 
+.logo img{ 
+    margin: 5px 30px;
+    height: 60px;
+    filter: invert(90%);
+}
+/*nav ber:ist*/
+
+#navber ul{
+    display: flex;
+}
+
+#navber ul li{
+    list-style-type: none;
+    font-size: 1.3rem;
+    
+}
+#navber ul li a{
+    text-decoration: none;
+    padding: 0px 27px;
+    color: white;
+    
+
+}
+#navber ul li a:hover{
+    
+    color:black;
+    background-color: white;
+    border-radius: 9px;
+    
+
+}
+/*HOME*/
+#home{
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 0px;
+
+}
+#home::before{
+    content: "";
+    background: url('../image/bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.8; 
+}
+#home h1{
+    color: aliceblue;
+    text-align: center;
+    
+}
+#home p{
+    font-size: 1.2rem;
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+
+}
+/*sarvice sector */
+#sarvices{
+    display: flex;
+}
+.sarvice-contenar{
+    
+    /*border: 2px solid blue;*/
+    background-color: rgb(112, 108, 108);
+}
+#sarvices .box{
+    border: 2px solid red;
+    margin: 10px;
+    padding:15px;
+    border-radius: 26px;
+    background-color: rgb(235, 214, 214);
+}
+#sarvices .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+#sarvices .box p{
+    font-family: 'Bree Serif', serif;
+}
+/*client section*/
+.client-section{
+    height: 200px;
+    position: relative;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../image/bg2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.client img{
+    height: 100px;
+    
+}
+/*contact section*/
+#contact{
+    height: 470px;
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('../image/bg4.png')no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.contact-box input{
+    padding:5px 5px;
+    margin:2px 5px;
+    border-radius:10px;
+    background-color: rgb(204, 235, 224);
+} 
+.contact-box textarea{
+    padding:10px 13px;
+    margin:2px 5px;
+    border-radius:15px;
+    background-color: rgb(204, 235, 224);
+}
+.contact-box label{
+    padding:10px 13px;
+    margin:2px 5px;
+    font-size:1.2rem;
+
+}
+.contact-box legend{
+    text-align:center;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+}
+/*footer*/
+footer{
+    background-color: gray;
+    color: antiquewhite;
+    padding: 30px 20px;
+    
+}
+/* utility class*/
+.h-p{
+    font-size: 2.5rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}
+.h-s{
+    font-size: 2rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+    
+}
+.btn1{
+    padding: 3px 5px;
+    margin: 12px 10px;
+    border: 4px solid blue;
+    border-radius: 15px;
+    background-color: brown;
+    font-size: 1.5rem;
+    
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    width:34%;
+    margin-left:86px;
+    margin-bottom: 10px;
+    border:2px solid blue;
+    border-radius:7px;
+    background-color:brown;
+    color:white;
+    font-family: 'Bree Serif', serif;
+}
+/*MEDIA QUERIES
+@media (min-width:750px ) and (max-width: 1025px) {
+  
+    #navber ul li a{
+        font-size:1.5rem;
+        padding:0px 15px;
+    }
+  
+}*/

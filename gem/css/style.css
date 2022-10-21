@@ -1,0 +1,196 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   /* background-size: 100% 100%;
+    background-position: center;*/
+    
+
+    
+}
+.left{
+   /* border: 2px solid red;*/
+    display:inline-block;
+    position:absolute;
+    top:20px;
+    left:20px;
+
+}
+.mid{
+   /* border: 2px solid green;*/
+    display: block;
+    width: 68%;
+    margin: 40px auto;
+}
+.right{
+   /* border: 2px solid yellow;*/
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+.navber li{
+    display: inline-block;
+
+}
+.navber li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+.header a:link {
+    color: rgb(235, 232, 232);
+}
+  
+/* visited link */
+.header a:visited {
+    color: green;
+}
+  
+/* mouse over link */
+.header a:hover {
+    color: hotpink;
+}
+  
+/* selected link */
+.header a:active {
+    color: blue;
+}
+.left img{
+    width: 64px;
+    filter: invert(100%);
+    
+}
+.left div{
+    width:64px;
+    text-align: center;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.btn1{
+    
+    background-color: black;
+    margin: 2px 0px;
+    padding: 2px 5px;
+    border: 4px soid gray;
+    border-radius: 10px;
+    color: white;
+
+}
+.btn2{
+    background-color: black;
+    margin: 2px 0px;
+    padding: 2px 9px;
+    border: 4px soid red;
+    border-radius: 10px;
+    text-align: center;
+}
+.contenar{
+    border: 2px solid #808080;
+    margin:150px 39px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    width:39%;
+}
+.from_g label{
+    color: red;
+    font-size:20px;
+
+}
+.from_g input{
+    color: rgb(26, 44, 26);
+    width:90%;
+    border:2px solid yellow;
+    border-radius:7px;
+
+}
+.from_g{
+    display: block;
+    margin:10px 10px;
+    
+
+}
+.contenar button{
+    background-color: rebeccapurple;
+    width: 87%;
+    margin: 2px 9px;
+    padding: 3px 7px;
+    border: 4px soid rgb(214, 14, 14);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+
+}
+.data{
+    border: 2px solid rgb(13, 13, 241);
+    background-color: aqua;
+    padding: 25px;
+    margin: 3px;
+    display: inline-block;
+    width: 25%;
+    height: 330px;
+}
+.c3{
+   border: 2px solid red;
+    width: auto;
+    height: 400px;
+    background-color:#656060;
+}
+.image img{
+    width: 60%;
+    filter: invert(100);
+    border: 2px solid black;
+    margin:auto 38px;
+   
+}
+.social{
+    border: 2px solid red;
+}
+.social h2{
+    text-align: center;
+
+}
+.link li a{
+    border: 2px solid green;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color:white;
+    color:black;
+    font-size:medium;
+    display:block;
+    width:70%;
+    text-align:center;
+
+}
+.link li{
+    text-decoration: none;
+    padding: 6px;
+    margin: 3px;
+    list-style-type: none;
+
+}
+.footer-credits {
+    background: #d47878;
+    border: 5px solid chocolate;
+    border-radius: 7px;
+
+    color: rgb(2, 39, 15);
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 15px;
+    margin: 0px 0 0;
+}
+.footer-credits a{
+    color: blue;
+}
+    
