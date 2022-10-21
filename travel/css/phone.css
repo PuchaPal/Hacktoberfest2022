@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* nav ber */
+#navber{
+    flex-direction: column;
+}
+#navber ul li a{
+    padding: 0px 10px;
+}
+#navber ul li{
+    padding: 0px 1px;
+
+} 
+#navber ul{
+   
+    margin-left: 10px;
+    padding-left: 00px;
+   /* border: 2px solid green;*/
+    
+    
+}
+.logo img{
+    
+  /*  border: 2px solid yellow;*/
+    margin-left: 00px;
+    
+}
+
+/* home  */
+
+#home p{
+    padding: 10px 20px;
+}
+
+/*  3rd  */
+
+.con1 {
+    flex-direction: column;
+    height: fit-content;
+    margin: 30px;
+
+
+}
+
+.con2{
+    flex-direction: column-reverse;
+    height: fit-content;
+    margin: 30px;
+}
+.con1 img{
+    height: 40%;
+    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
+.con2 img{
+    height: 40%;
+    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
+.contain{
+    width: 100%;
+    margin: 0px;
+    
+}
+
+/* item section */
+.item-section{
+    height: fit-content;
+}
+
+.item-box{
+    flex-direction: column;
+    height: fit-content;
+    
+}
+.box{
+    width: 100%;
+}
+
+/* contact us */
+.contuct-item{
+    flex-direction: column;
+    height: fit-content;
+}
+.add{
+    
+    width: 100%;
+    
+}
+.form{
+    
+    width: 90%;
+    margin: 10px;
+    
+}
+.add img{
+    
+    width: 90%;
+    
+}
+
+
+/* about page */
+
+.banar-box{
+    flex-direction: column;
+}
+.banar1{
+    /*border: 2px solid green;*/
+    width: 100%;
+}
+.count{
+   /* position: relative;
+    height: auto;*/
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.banar2{
+    /*border: 2px solid green;*/
+    width: 100%;
+}
+.banar1 p{
+    padding-left: 15px;
+}
+
+
+
+.count-item p{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 5px;
+    color: rgb(10, 10, 10);
+
+}
+.count-item span{
+    
+   font-size: 2.2rem;
+    
+}
+.count-item{
+    /*border: 2px solid black;*/
+    width: fit-content;
+    
+    
+    
+    
+}
