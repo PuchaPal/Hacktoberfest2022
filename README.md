@@ -13,7 +13,7 @@ Hacktoberfest { [Live Website](https://PuchaPal.github.io/Hacktoberfest2022/)}
 P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 
 Hacktoberfest 2022
-![Event Completed](/scripts/Event_Completed_.png)
+![Event Completed](https://github.com/PuchaPal/Hacktoberfest2022/blob/main/Event_Completed_.png?raw=true)
 
 # 📌 Videos 📽️:
 
