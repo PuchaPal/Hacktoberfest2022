@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    /* nav ber*/
+
+#navber{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    
+   /* border: 2px solid brown;*/
+
+    
+
+}
+#navber::before{
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .9;
+    top: 0%;
+    left: 0%;
+
+}
+
+
+/* logo */
+.logo img{
+    height: 80px;
+    width: 80px;
+  /*  border: 2px solid yellow;*/
+    margin-left: 60px;
+    filter: invert(95%);
+}
+
+
+/* li*/
+#navber ul{
+    display: flex;
+    padding-left: 30px;
+    margin-left: 80px;
+   /* border: 2px solid green;*/
+    
+    
+}
+#navber ul li{
+    list-style-type: none;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+#navber ul li a{
+    text-decoration: none;
+    padding: 0px 27px;
+    color: aliceblue;
+    font-family: 'Bree Serif', serif;
+}
+#navber ul li a:hover{
+    background-color: azure;
+    color: black;
+    border-radius: 10px;
+}
+
+/* HOME*/ 
+
+#home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   /* border: 2px solid red;*/
+    justify-content: center;
+    height: 400px;
+    margin: 0px;
+
+}
+#home::before{
+    content: "";
+    background: url('../img/header-image.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.3;
+
+}
+#home h1{
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+    font-size: 2.3rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+#home p{
+    font-family: 'Bree Serif', serif;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+#home a{
+    text-decoration: none;
+    background-color: white;
+    color: red;
+}
+
+
+/* 3rd */
+
+#contenar{
+   /* border: 2px solid green;*/
+    margin-top: 40px;
+    background-color: rgb(117, 116, 116);
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+}
+.con1{
+    display: flex;
+    top: 0%;
+   /* border: 2px solid black;*/
+    margin: 30px;
+    box-shadow: 0px 0px 20px 0px rgb(27, 21, 21);
+
+    height: 320px;
+    
+}
+.con2{
+    display: flex;
+    top: 0%;
+   /* border: 2px solid blue;*/
+    margin:30px;
+    box-shadow: 0px 0px 20px 0px rgb(27, 21, 21);
+    height: 320px;
+}
+
+.con1 img{
+    height: 100%;
+    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
+.con2 img{
+    height: 100%;
+    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
+
+.contain{
+    background-color: azure;
+   /* border: 2px solid red;*/
+    width: 60%;
+    
+}
+.contain h2{
+    text-align: center;
+    padding: 20px 0px;
+}
+.contain p{
+    text-align: left;
+    padding: 5px 20px;
+    color: rgb(105, 104, 104);
+}
+.btn2 :hover{
+    background-color: azure;
+    color: black;
+    border-radius: 10px;
+}
+/* item box*/
+.item-section{
+    
+    border: 2px solid antiquewhite;
+    height: 400px;
+    background-color: antiquewhite;
+
+}
+.item-box{
+    display: flex;
+    align-items: center;
+   /* border: 2px solid rgb(46, 51, 46);*/
+    height: 300px;
+    margin: 60px;
+    box-shadow: 0px 0px 20px 0px rgb(27, 21, 21);
+}
+.box{
+    width: 33.33%;
+    /*border: 2px solid red;*/
+    height: 100%;
+    text-align: center;
+}
+.item1,.item3{
+    background-color: #263238;
+    color: azure;
+}
+.item2{
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: azure;
+}
+.box h2{
+    padding: 20px 0px;
+}
+.box p{
+    padding: 5px 20px;
+}
+.box i{
+    padding-top: 15px ;
+}
+
+/*footer*/
+.footer-box{
+    background: #263238;
+    color: antiquewhite;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    padding: 10px 10px;
+    color: white;
+}
+.footer-item{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+/* utility class*/
+
+
+
+.h-s{
+    font-size: 1.7rem;
+}
+.p-s{
+    font-size: 1rem;
+}
+.btn1{
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+   /* border: 4px solid green;*/
+    padding: 5px 15px;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+}
+
+.btn2{
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color: aliceblue;
+    color: red;
+    padding: 4px;
+    padding: 5px 20px;
+    margin: 5px 20px;
+    cursor: pointer;
+    
+}
+.text-red{
+    color: rgb(201, 13, 13);
+}
+
+/*  about page styling   */
+
+#about h2{
+    font-size: 2rem;
+   
+}
+
+.about-h{
+    
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.about-h::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid red;
+    width: 90%;
+
+}
+.about-p{
+    
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 80%;
+}
+#about-p p{
+    font-size: 1.3rem;
+    color: rgb(100, 95, 95);
+}
+
+.about-box{
+    /*border: 2px solid red;*/
+    margin: 60px 80px ;
+    display: flex;
+}
+
+.about-items{
+   /* border: 2px solid red;*/
+    width: 50%;
+    text-align: center;
+}
+.about-items ul li{
+    list-style-type: none;
+    padding: 6px;
+}
+.about-box li::before{
+    content: "\2713";
+    font-weight: bold;
+    padding-right: 9px;
+    color: #ee4758;
+
+}
+.count{
+    /*border: 2px solid red;*/
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    
+    
+}
+.count-item{
+    /*border: 2px solid black;*/
+    width: 25%;
+    text-align: center;
+    
+    
+    
+}
+.count-item span{
+    font-size: 2.5rem;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+.count-item p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 16px 5px;
+    color: rgb(10, 10, 10);
+
+}
+.banar-box{
+   /* border: 2px solid black;*/
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    display: flex;
+    box-shadow: 0px 0px 20px 0px rgb(27, 21, 21);
+
+
+}
+
+.banar1{
+    /*border: 2px solid green;*/
+    width: 60%;
+}
+.banar2{
+    /*border: 2px solid green;*/
+    width: 40%;
+}
+
+.banar1 p{
+    font-size: 1.7rem;
+    padding: 10px 5px ;
+    color: aliceblue;
+    margin: 19px 0px;
+}
+.banar2 h2{
+    font-size: 2.3rem;
+    text-align: center;
+    color: aliceblue;
+    border: 5px solid white;
+    padding: 14px 10px ;
+    margin: 22px;
+
+}
+.banar2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.l{
+    border: 2px solid white;
+    height: 100px ;
+}
+
+/* contuct us */ 
+
+.contuct-item{
+    /*border: 2px solid black;*/
+    height: 900px;
+    display: flex;
+    
+}
+.add{
+   /* border: 2px solid red;*/
+    height: 800px;
+    width: 50%;
+    margin: 50px 20px;
+}
+.form{
+   /* border: 2px solid red;*/
+    height: 800px;
+    width: 50%;
+    margin: 50px;
+}
+.add h2{
+    padding: 15px 7px;
+}
+.add p{
+    padding: 15px 7px;
+}
+.add img{
+    height: 450px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.from-item h2{
+    margin: 9px 0px;
+}
+.from-item::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid red;
+    width: 90%;
+
+}
+.from-item1 p{
+    margin: 9px 0px;
+    font-size: 1.1rem;
+    padding-right: 40px ;
+
+    
+}
+.items1 i,.items1 h2{
+    display: inline-block;
+}
+.from_g{
+   /* border: 2px solid red;*/
+    margin-top: 20px;
+    
+
+
+}
+.from_g label{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.from_g input{
+    margin-top: 10px;
+    color: rgba(22, 22, 22, 0.295);
+}
+.from_g textarea{
+    margin-top: 10px;
+}
+
+.from_s {
+    text-align: left;
+}
+.from_s a{
+    text-decoration: none;
+    color: azure;
+}
+.contact-box button{
+    
+    padding: 5px 30px;
+    margin-top: 10px;
+    
+    font-weight: bold;
+    background-color: #ee4758;
+    font-size: 1.1rem;
+
+}
+.add,.form{
+    background-color: rgba(255, 228, 196, 0.137);
+}
